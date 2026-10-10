@@ -1,6 +1,6 @@
 # Human-first execution skills
 
-让 GPT/Codex 少一点模型腔，多一点同事感：先把事情推进到可验证结果，再用普通话把结果说清楚。
+让 GPT/Codex 少一点模型腔，多一点同事感：先把事情推进到可验证结果，再用普通话把结果说清楚。`r`n`r`n公开仓库：<https://github.com/wwwort/human-first-agent-skills>
 
 这个包包含两个可以公开复核的 Skill：
 
@@ -52,8 +52,9 @@ $decisive-execution
 
 `human-first-execution` 来自 Temp 包 `human-first-execution-local-bundle.zip`，本次已原样落地到 `D:\asset-hub\payload\skills\human-first-execution`，包含 `SKILL.md`、`agents/openai.yaml`、图标和四份参考文档。`decisive-execution` 来自 `D:\asset-hub\payload\skills\decisive-execution`，参考矩阵也随包复制。
 
-调研材料综合了官方材料、社区体验和人机对话研究，用于提出可观察的交互目标，不是对任何模型的独立性能证明。发布前请补充原始链接、署名和许可证选择。
+调研材料综合了官方材料、社区体验和人机对话研究，用于提出可观察的交互目标，不是对任何模型的独立性能证明。仓库根目录使用 MIT License，版权所有者为 wwwort；原始研究链接可在后续版本继续补充。
 
 ## 发布前最后一步
 
-本地包、对比页、脚本和字幕已经准备好。GitHub owner/repository URL、许可证和 B 站账号状态仍需由发布者确认；推送和上传属于外部发布动作，完成前请回读公开页面。
+本地包、对比页、脚本和字幕已经准备好，GitHub 公开仓库已推送并回读提交。剩余外部动作是录制/审核成片后上传 B 站；上传后仍需回读公开页面。
+
