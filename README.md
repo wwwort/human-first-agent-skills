@@ -30,6 +30,7 @@
 ## 三分钟视频素材
 
 - [`three-minute-script.md`](video/three-minute-script.md)：前 2 分钟讲问题和需求，后 1 分钟讲解决方案和仓库；
+- [`three-minute-script-v2.md`](video/three-minute-script-v2.md)：V2 密集排版分镜，包含对照示例、矩阵、rubric 和仓库地图；
 - [`subtitles.srt`](video/subtitles.srt)：字幕；
 - [`video/README.md`](video/README.md)：成片、配音和上传说明；
 - [`bilibili-description.md`](video/bilibili-description.md)：标题、简介、时间轴和标签；
