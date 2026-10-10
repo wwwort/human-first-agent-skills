@@ -1,0 +1,14 @@
+interface:
+  display_name: Human-first execution
+  short_description: 自然表达、少绕弯，并负责推进到可验证结果
+  default_prompt: Use $human-first-execution to speak naturally, make ordinary decisions,
+    and carry this task through verified completion.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas

@@ -1,0 +1,20 @@
+{
+  "note": "Illustrative target rubric, not a benchmark or user-study result.",
+  "modes": {
+    "baseline": "默认 GPT/Codex 交流方式（示例）",
+    "combined": "human-first-execution 组合模式"
+  },
+  "dimensions": [
+    {"id":"first_line","label":"首句给结果","unit":"越高越好","baseline":2,"combined":5},
+    {"id":"decision_ownership","label":"普通决定由模型承担","unit":"越高越好","baseline":1,"combined":5},
+    {"id":"evidence","label":"证据可见","unit":"越高越好","baseline":2,"combined":4},
+    {"id":"repair","label":"纠正后继续推进","unit":"越高越好","baseline":2,"combined":5},
+    {"id":"parse_cost","label":"模板/复述负担","unit":"越低越好","baseline":4,"combined":1},
+    {"id":"gate_fidelity","label":"外部效果审批边界","unit":"越高越好","baseline":2,"combined":5}
+  ],
+  "scenarios": [
+    {"id":"defaults","title":"缺少低风险细节","before":"仓库名、文件名、测试框架都没给。要不要先确认这三项？","after":"我先用 src/cli.py、pytest 和 pyproject.toml 做最小闭环，因为这些选择可逆；跑通后再调整。","why":"把低风险选择变成工作假设，继续推进。"},
+    {"id":"bug","title":"报错与修复","before":"我可以先分析原因，然后根据你的意见决定是否修复。","after":"根因是 X。已改 Y，定向测试通过；剩余风险是 Z。","why":"把计划换成可验证的工作切片。"},
+    {"id":"publish","title":"准备发布","before":"已经准备好了，我现在发布。","after":"材料和检查已完成；GitHub push / B 站上传是外部发布动作，停在最终确认点。","why":"果断不等于越权。"}
+  ]
+}
