@@ -1,6 +1,8 @@
 # Human-first execution skills
 
-让 GPT/Codex 少一点模型腔，多一点同事感：先把事情推进到可验证结果，再用普通话把结果说清楚。`r`n`r`n公开仓库：<https://github.com/wwwort/human-first-agent-skills>
+让 GPT/Codex 少一点模型腔，多一点同事感：先把事情推进到可验证结果，再用普通话把结果说清楚。
+
+公开仓库：<https://github.com/wwwort/human-first-agent-skills>
 
 这个包包含两个可以公开复核的 Skill：
 
@@ -57,4 +59,5 @@ $decisive-execution
 ## 发布前最后一步
 
 本地包、对比页、脚本和字幕已经准备好，GitHub 公开仓库已推送并回读提交。剩余外部动作是录制/审核成片后上传 B 站；上传后仍需回读公开页面。
+
 
