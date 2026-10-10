@@ -31,6 +31,7 @@
 
 - [`three-minute-script.md`](video/three-minute-script.md)：前 2 分钟讲问题和需求，后 1 分钟讲解决方案和仓库；
 - [`subtitles.srt`](video/subtitles.srt)：字幕；
+- [`video/README.md`](video/README.md)：成片、配音和上传说明；
 - [`bilibili-description.md`](video/bilibili-description.md)：标题、简介、时间轴和标签；
 - [`recording-checklist.md`](video/recording-checklist.md)：录制与发布检查。
 
@@ -58,6 +59,6 @@ $decisive-execution
 
 ## 发布前最后一步
 
-本地包、对比页、脚本和字幕已经准备好，GitHub 公开仓库已推送并回读提交。剩余外部动作是录制/审核成片后上传 B 站；上传后仍需回读公开页面。
+本地包、对比页、脚本和字幕已经准备好，GitHub 公开仓库已推送并回读提交。审核成片保留在本地交付包，剩余外部动作是审核后上传 B 站；上传后仍需回读公开页面。
 
 
